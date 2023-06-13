@@ -66,7 +66,7 @@ public class GameField extends JPanel implements ActionListener {
 				g.drawImage(dot, x[i], y[i], this);
 			}
 		} else {
-			String str = "А теперь иди на хуй";
+			String str = "Game over";
 			Font f = new Font("Arial", 14, Font.BOLD);
 			g.setColor(Color.WHITE);
 			g.drawString(str, 100, SIZE/2);
